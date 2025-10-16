@@ -1,0 +1,34 @@
+export const GAME_CONFIG = {
+  WORLD_WIDTH: 2400,
+  WORLD_HEIGHT: 1800,
+  TICK_RATE: 60,
+  NETWORK_UPDATE_RATE: 20,
+};
+
+export const SHIP_CONFIG = {
+  THRUST_POWER: 200,
+  ROTATION_SPEED: 3,
+  MAX_SPEED: 500,
+  DRAG: 0.99,
+  SIZE: 20,
+  MAX_HEALTH: 100,
+  FIRE_COOLDOWN: 250,
+};
+
+export const PROJECTILE_CONFIG = {
+  SPEED: 600,
+  DAMAGE: 20,
+  LIFETIME: 2000,
+  SIZE: 4,
+};
+
+export const COLORS = [
+  '#FF6B6B',
+  '#4ECDC4',
+  '#45B7D1',
+  '#FFA07A',
+  '#98D8C8',
+  '#F7DC6F',
+  '#BB8FCE',
+  '#85C1E2',
+];
